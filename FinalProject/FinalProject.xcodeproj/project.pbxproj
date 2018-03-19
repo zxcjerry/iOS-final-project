@@ -11,11 +11,24 @@
 		C47071F0205B30D2001655A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47071EF205B30D2001655A6 /* AppDelegate.swift */; };
 		C47071F2205B30D2001655A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47071F1205B30D2001655A6 /* ViewController.swift */; };
 		C47071F5205B30D2001655A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47071F3205B30D2001655A6 /* Main.storyboard */; };
-		C47071F7205B30D2001655A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47071F6205B30D2001655A6 /* Assets.xcassets */; };
 		C47071FA205B30D2001655A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47071F8205B30D2001655A6 /* LaunchScreen.storyboard */; };
 		C4707202205B3187001655A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4707201205B3187001655A6 /* GoogleService-Info.plist */; };
 		C4707204205B4C09001655A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707203205B4C09001655A6 /* MainViewController.swift */; };
 		C4707207205B5CC0001655A6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707206205B5CC0001655A6 /* MainTableViewCell.swift */; };
+		C4707209205B8C8C001655A6 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707208205B8C8C001655A6 /* PostTableViewCell.swift */; };
+		C470720D205B8DA0001655A6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470720C205B8DA0001655A6 /* Post.swift */; };
+		C4707210205B912A001655A6 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470720F205B912A001655A6 /* PostViewController.swift */; };
+		C4707212205B941C001655A6 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707211205B941C001655A6 /* CircleView.swift */; };
+		C4707214205B9646001655A6 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707213205B9646001655A6 /* CommentTableViewCell.swift */; };
+		C4707216205B9C9F001655A6 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707215205B9C9F001655A6 /* CommentTableViewController.swift */; };
+		C4707237205C1CB1001655A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4707236205C1CB1001655A6 /* Assets.xcassets */; };
+		C4707239205C28BB001655A6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4707238205C28BB001655A6 /* Settings.bundle */; };
+		C470723B205C520C001655A6 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470723A205C520C001655A6 /* PersonalViewController.swift */; };
+		C470723D205C73F9001655A6 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470723C205C73F9001655A6 /* FilesViewController.swift */; };
+		C470723F205CDD06001655A6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470723E205CDD06001655A6 /* SplashViewController.swift */; };
+		C4707243205DA8F1001655A6 /* MyPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707242205DA8F1001655A6 /* MyPostsTableViewController.swift */; };
+		C4707245205DA9D0001655A6 /* MyPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707244205DA9D0001655A6 /* MyPostsTableViewCell.swift */; };
+		C4707247205DAE46001655A6 /* SharedNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707246205DAE46001655A6 /* SharedNetworking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +39,25 @@
 		C47071EF205B30D2001655A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47071F1205B30D2001655A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C47071F4205B30D2001655A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C47071F6205B30D2001655A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47071F9205B30D2001655A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C47071FB205B30D2001655A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4707201205B3187001655A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4707203205B4C09001655A6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C4707206205B5CC0001655A6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		C4707208205B8C8C001655A6 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C470720C205B8DA0001655A6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C470720F205B912A001655A6 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C4707211205B941C001655A6 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C4707213205B9646001655A6 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		C4707215205B9C9F001655A6 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		C4707236205C1CB1001655A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4707238205C28BB001655A6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C470723A205C520C001655A6 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		C470723C205C73F9001655A6 /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		C470723E205CDD06001655A6 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C4707242205DA8F1001655A6 /* MyPostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsTableViewController.swift; sourceTree = "<group>"; };
+		C4707244205DA9D0001655A6 /* MyPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsTableViewCell.swift; sourceTree = "<group>"; };
+		C4707246205DAE46001655A6 /* SharedNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +110,16 @@
 		C47071EE205B30D2001655A6 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				C470720B205B8D92001655A6 /* Model */,
 				C4707205205B5C83001655A6 /* View */,
-				C47071EF205B30D2001655A6 /* AppDelegate.swift */,
-				C47071F1205B30D2001655A6 /* ViewController.swift */,
-				C4707203205B4C09001655A6 /* MainViewController.swift */,
+				C470720E205B90EA001655A6 /* Controller */,
 				C47071F3205B30D2001655A6 /* Main.storyboard */,
-				C47071F6205B30D2001655A6 /* Assets.xcassets */,
+				C4707236205C1CB1001655A6 /* Assets.xcassets */,
+				C47071EF205B30D2001655A6 /* AppDelegate.swift */,
 				C47071F8205B30D2001655A6 /* LaunchScreen.storyboard */,
 				C4707201205B3187001655A6 /* GoogleService-Info.plist */,
 				C47071FB205B30D2001655A6 /* Info.plist */,
+				C4707238205C28BB001655A6 /* Settings.bundle */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -101,8 +128,36 @@
 			isa = PBXGroup;
 			children = (
 				C4707206205B5CC0001655A6 /* MainTableViewCell.swift */,
+				C4707208205B8C8C001655A6 /* PostTableViewCell.swift */,
+				C4707213205B9646001655A6 /* CommentTableViewCell.swift */,
+				C4707244205DA9D0001655A6 /* MyPostsTableViewCell.swift */,
+				C4707211205B941C001655A6 /* CircleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C470720B205B8D92001655A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C470720C205B8DA0001655A6 /* Post.swift */,
+				C4707246205DAE46001655A6 /* SharedNetworking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C470720E205B90EA001655A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C47071F1205B30D2001655A6 /* ViewController.swift */,
+				C4707203205B4C09001655A6 /* MainViewController.swift */,
+				C470720F205B912A001655A6 /* PostViewController.swift */,
+				C4707215205B9C9F001655A6 /* CommentTableViewController.swift */,
+				C470723A205C520C001655A6 /* PersonalViewController.swift */,
+				C470723C205C73F9001655A6 /* FilesViewController.swift */,
+				C470723E205CDD06001655A6 /* SplashViewController.swift */,
+				C4707242205DA8F1001655A6 /* MyPostsTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +224,8 @@
 			files = (
 				C47071FA205B30D2001655A6 /* LaunchScreen.storyboard in Resources */,
 				C4707202205B3187001655A6 /* GoogleService-Info.plist in Resources */,
-				C47071F7205B30D2001655A6 /* Assets.xcassets in Resources */,
+				C4707239205C28BB001655A6 /* Settings.bundle in Resources */,
+				C4707237205C1CB1001655A6 /* Assets.xcassets in Resources */,
 				C47071F5205B30D2001655A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,10 +299,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4707247205DAE46001655A6 /* SharedNetworking.swift in Sources */,
+				C4707212205B941C001655A6 /* CircleView.swift in Sources */,
 				C4707204205B4C09001655A6 /* MainViewController.swift in Sources */,
+				C4707243205DA8F1001655A6 /* MyPostsTableViewController.swift in Sources */,
 				C47071F2205B30D2001655A6 /* ViewController.swift in Sources */,
+				C4707210205B912A001655A6 /* PostViewController.swift in Sources */,
+				C4707214205B9646001655A6 /* CommentTableViewCell.swift in Sources */,
+				C4707209205B8C8C001655A6 /* PostTableViewCell.swift in Sources */,
+				C470723F205CDD06001655A6 /* SplashViewController.swift in Sources */,
+				C470720D205B8DA0001655A6 /* Post.swift in Sources */,
 				C4707207205B5CC0001655A6 /* MainTableViewCell.swift in Sources */,
+				C4707245205DA9D0001655A6 /* MyPostsTableViewCell.swift in Sources */,
+				C4707216205B9C9F001655A6 /* CommentTableViewController.swift in Sources */,
 				C47071F0205B30D2001655A6 /* AppDelegate.swift in Sources */,
+				C470723D205C73F9001655A6 /* FilesViewController.swift in Sources */,
+				C470723B205C520C001655A6 /* PersonalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

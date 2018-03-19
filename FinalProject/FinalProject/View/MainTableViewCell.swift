@@ -11,10 +11,14 @@ import Firebase
 import FirebaseStorage
 
 class MainTableViewCell: UITableViewCell {
-
+    
+    // MARK: - Properties
     @IBOutlet weak var userimageView: UIImageView!
     @IBOutlet weak var shareBtn: UIButton!
     
+    let Network = SharedNetworking.shared
+    
+    // MARK: - Navigation
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,17 +30,17 @@ class MainTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    /**
+     Function to set up all the settings in the cell
+     
+     - parameter userimageURL: the URL of the userimage
+ 
+     */
     func configCell(userimageURL: String) {
-        let httpsReference = Storage.storage().reference(forURL: userimageURL)
-        
-        httpsReference.getData(maxSize: 1 * 1024 * 1024) { data, error in
-            if let error = error {
-                // Uh-oh, an error occurred!
-            } else {
-                let image = UIImage(data: data!)
-                self.userimageView.image = image
-            }
+        Network.pullImage(userimageURL: userimageURL) { (img) in
+            self.userimageView.image = img
         }
+
     }
     
 }
